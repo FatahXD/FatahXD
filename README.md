@@ -1,7 +1,3 @@
 <body>
-  <style>
-    {
-    background-color: yellow;
-      }
-  </style>
+  <a href="www.whatsapp.com" <button>kontol</button> </a> 
 </body>
